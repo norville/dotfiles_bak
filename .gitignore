@@ -1,0 +1,21 @@
+# Ignore everything in repo's root
+/*
+
+# Un-ignore root's content
+!.bashrc
+!.config
+#!.gitconfig
+!.gitignore
+#!.mackup.cfg
+!.profile
+!.vim
+!.vimrc
+!.zsh
+!.zshrc
+!bin
+!code
+
+# Ignore specific items inside repo
+.vim/bundle/*
+code/*
+*.zwc
